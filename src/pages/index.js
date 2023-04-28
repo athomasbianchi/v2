@@ -1,9 +1,15 @@
-import * as React from "react"
+import React from "react";
+import About from "../components/sections/about";
+import Projects from "../components/sections/projects";
+import Work from "../components/sections/work";
 
 const IndexPage = () => {
   return (
     <main>
-      Main
+      <About />
+      {/* <Projects /> */}
+      {/* <Work /> */}
+      {/* <Freelance /> */}
     </main>
   )
 }
